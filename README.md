@@ -1,3 +1,9 @@
+# Memory Game with ReactJS-TS
+
+Find and match the numbers 0-9 in the boxes. Developed with ReactJS.
+
+Live website URL -> https://otpz.github.io/memory-game-reactjs/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
