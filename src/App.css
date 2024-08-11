@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Inter", sans-serif;
+}
+
+body,
+html{
+  height: 100vh; 
+}
+
+body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 42, 50);
+}
+
+.content{
+  max-width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.title{ 
+  color: white;
+  font-size: 24px;
+  margin-bottom: 40px
+}
+
+.row{
+  width: 400px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.box{
+  width: 70px;
+  height: 70px;
+  font-size: 14px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  gap: 10px;
+}
+
+.scores{
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.score{
+  color: rgb(129, 129, 255);
+}
+
+.mistake{
+  color: rgb(255, 117, 117);
+}
+
+.info-message{
+  margin-top: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+@media screen and (max-width:440px) {
+
+  .content{
+    min-height: 400px;
+  }
+
+  .row{
+    width: 300px;
+    height: 50px;
+    gap: 7px;
+    margin-bottom: 7px;
+  }
+  
+  .box{
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    gap: 7px;
+  }
+
+  .scores{
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .info-message{
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width:310px){
+  .content{
+    min-height: 400px;
+  }
+
+  .row{
+    width: 250px;
+    height: 45px;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+  
+  .box{
+    width: 45px;
+    height: 45px;
+    font-size: 12px;
+    gap: 6px;
+  }
+}
